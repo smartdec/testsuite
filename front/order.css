@@ -1,0 +1,66 @@
+.content {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15%;
+}
+
+
+.notification-panel {
+  margin: 15px;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.successfull {
+  background-color: #c3e6cb;
+}
+
+.notification-header {
+  padding: 1px 0 0 12px;
+}
+
+.notification-content {
+  padding: 0 0 5px 12px;
+}
+
+.step {
+  margin: 15px;
+}
+
+.step-header {
+  height: 54px;
+  padding: 12px 20px 12px 20px;
+  width: inherit;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.step-content {
+  padding: 1.25rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top: 0px;
+  background-clip: border-box;
+}
+
+.input-token-addr {
+  width: 70%;
+}
+
+.btn-approve {
+  width: 100%;
+}
+
+.btn-order {
+  width: 100%;
+}

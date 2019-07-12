@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./report.css">
+    <link rel="stylesheet" type="text/css" href="./header.css">
+  </head>
+  <body>
+    <main class="fixed-container">
+      <div id="header">
+      </div>
+      <div class="content" id="root">
+      </div>
+    </main>
+
+    <!-- <p>
+      This is the third comment.
+      We will put our React component inside this div.
+      <div class="like_button_container" data-commentid="3"></div>
+    </p> -->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react-motion/build/react-motion.js"></script>
+    <script src="https://unpkg.com/react-collapse/build/react-collapse.js"></script>
+
+    <!-- Load our React component. -->
+    <script type="text/babel" src="./report.jsx"></script>
+    <script type="text/babel" src="./header.jsx"></script>
+    <script type="text/babel" src="./descriptions.jsx"></script>
+
+  </body>
+</html>
