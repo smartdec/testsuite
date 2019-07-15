@@ -12,7 +12,7 @@ The test results along with their evidence are available on-chain and in the web
 There are different options, how you can run tests.
 
 ### Via web interface
-Go to the [testsuite.net](http://testsuite.net), then follow the steps on the website. You will need metamask to interact with the DApp.
+Go to the [testsuite.net](https://testsuite.net), then follow the steps on the website. You will need metamask to interact with the DApp.
 
 ### Directly call smart contract
 TestSuite smart contract is deployed at [Mainnet](https://etherscan.io/address/0x1e7Aff4f505d2fa5E8D1f08659d4EeA9110abD8F), [Ropsten](https://ropsten.etherscan.io/address/0x34016BCF8aEdE81e193cfE12f8E4298516EEF186) and [Kovan](https://kovan.etherscan.io/address/0x897179dD89FB07B1773B1f0E1371F13f754C78cD). Just call `check(address token)` function. You can get results via `testResults(address token)` function.
