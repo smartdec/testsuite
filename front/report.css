@@ -1,0 +1,71 @@
+.content {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.row {
+  display: flex;
+}
+
+.token-addr-header {
+  flex: 1;
+  margin: 1rem;
+}
+
+.token-addr-value {
+  flex: 8;
+  margin: 1rem;
+}
+
+.section-list {
+  flex: 1;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.section {
+  border-radius: .25rem;
+}
+
+.section-header {
+  padding: 12px 20px 12px 20px;
+  width: inherit;
+  background-color: #f1f1f1;
+  font-size: 1.25rem;
+}
+
+.section-content {
+  width: inherit;
+  padding: .5rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top: 0px;
+  background-clip: border-box;
+}
+
+.test-case {
+  border: 1px solid rgba(0,0,0,.125);
+  background-clip: border-box;
+  padding: .5rem;
+  margin: .25rem;
+}
+
+.successfull {
+  background-color: #c3e6cb;
+}
+
+.failed {
+  background-color: #CD5C5C;
+}
+
+.active {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.description {
+  flex: 2;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 1rem;
+  padding-top: 0rem;
+}

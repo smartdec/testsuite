@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./header.css">
+  </head>
+  <body>
+    <main class="fixed-container" id="root">
+      <div id="header">
+      </div>
+      <div class="content">
+        <h2> ERC20 Token Standard Compliance Check</h2>
+        <div class="content-text">
+          <p>Find out, whether your token is ERC20 compliant. We will run our tests and point out the standard violations or prove there is none. All the checks and the proof will be available on-chain. <a href="https://blog.smartdec.net/erc20-testsuite-b7152eea118d">Learn more</a></p>
+        </div>
+        <form action="order.html">
+          <input type="submit" value="Order" />
+        </form>
+      </div>
+    </main>
+
+    <!-- <p>
+      This is the third comment.
+      We will put our React component inside this div.
+      <div class="like_button_container" data-commentid="3"></div>
+    </p> -->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Load our React component. -->
+    <script type="text/babel" src="./header.jsx"></script>
+
+  </body>
+</html>

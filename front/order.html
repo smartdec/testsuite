@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./header.css">
+    <link rel="stylesheet" type="text/css" href="./order.css">
+  </head>
+  <body>
+    <main class="fixed-container">
+      <div id="header">
+      </div>
+      <div class="content" id="root">
+        <div class="step">
+          <!-- <div class="step-content">
+            <input type="text" placeholder="token address" id="input-token-addr">
+            <button>enter</button>
+          </div> -->
+          <!-- <div class="step-content">
+            <p>We need small amount of tokens in order to test functions such as tranfer, approve and transferFrom. Note that these tokens will NOT be refunded</p>
+            <button id="btn-approve">send approve transaction</button>
+          </div> -->
+          <!-- <div class="step-content">
+            <p>Send order transaction to our special ordering contract. After checking the requirements, our contract will notify the backend about successfull payment transactions and tests will be run.</p>
+            <button id="btn-order">order</button>
+          </div> -->
+        </div>
+      </div>
+
+    <!-- <p>
+      This is the third comment.
+      We will put our React component inside this div.
+      <div class="like_button_container" data-commentid="3"></div>
+    </p> -->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react-motion/build/react-motion.js"></script>
+    <script src="https://unpkg.com/react-collapse/build/react-collapse.js"></script>
+
+    <!-- Load our React component. -->
+    <script type="text/babel" src="./header.jsx"></script>
+    <script type="text/babel" src="./order.jsx"></script>
+
+  </body>
+</html>
